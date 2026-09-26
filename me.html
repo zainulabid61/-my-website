@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abid's Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: purple;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: black;
+        }
+
+        header h1 {
+            font-size: 45px;
+        }
+
+        header p {
+            color: yellow;
+            margin-top: 10px;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #000;
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: #292929;
+            padding: 12px 20px;
+            border-radius: 25px;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 14px 30px;
+            border: none;
+            border-radius: 30px;
+            background: white;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background: #ddd#7F7F7F;
+        }
+
+        footer {
+            padding: 20px;
+            color:#FFFFFF#FFFF00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ABID</h1>
+        <p>Student • Creator • Coder</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>👋 About Me</h2>
+            <p>
+                Hello! I'm Abid. I love coding, football,
+                gaming and video editing.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>💻 My Skills</h2>
+
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">C++</div>
+                <div class="skill">Video Editing</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>⚽ Favourite Player</h2>
+            <p>
+                Cristiano Ronaldo — CR7 🔥
+            </p>
+
+            <button onclick="showMessage()">
+                Click Me
+            </button>
+        </div>#me
+
+    </div>
+
+    <footer>
+        © 2026 Abid | My Website
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("in my mind i am always the best 🔥⚽");
+        }
+    </script>
+
+</body>
+</html>
